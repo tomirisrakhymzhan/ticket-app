@@ -9,7 +9,7 @@ export default () => {
                                             url:'/api/users/signup', 
                                             method: 'post', 
                                             body: {email, password},
-                                            onSuccess: (data) =>{ console.log('onsucsess called', data);Router.push('/')}
+                                            onSuccess: (data) =>{ Router.push('/')}
                                         });
 
   const onSubmit = async event => {
